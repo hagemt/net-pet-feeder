@@ -20,11 +20,11 @@ https://gist.github.com/ubergesundheit/7bdb6bdc818028a34a190363aed4d00a
 
 ### Wait, what is this?
 
-In all seriousness, this project is full of hacks; it was fun though. I won't to post the feed-my-cat URL--not sorry.
-
 > He took his defunct Petnet SmartFeeder, wired the motor to a relay board, then did some magic with a Raspberry Pi.
 
 You'll need to figure out the hardware stuff on your own, or read my bad code to understand which pin(s) to pick.
+
+In all seriousness, this project is full of cheap hacks; it was fun though. No, I won't post URL to feed my cat.
 
 * There is a (dumb) front-end for the script.
 * There are cron jobs to run on the Raspberry Pi.
@@ -32,7 +32,7 @@ You'll need to figure out the hardware stuff on your own, or read my bad code to
 
 The foot pedal is completely optional; I bought the relay board and "mouse" foot pedal from some guy in China.
 
-See: https://github.com/hagemt/footswitch
+See also: https://github.com/hagemt/footswitch
 
 ### Sorry, I still don't get it.
 
