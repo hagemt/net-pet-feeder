@@ -40,4 +40,6 @@ You're SOL, dude. I'm not saying you should use this to feed your pet. I'm just 
 
 It's a mid/moderate intensity (few days) maker project: https://www.reddit.com/r/Petnet/comments/p9tjy7/so_i_made_my_own/
 
-Only extra hardware: Pi, and Songle 5V DC relays from Amazon (e.g. JBtek or SunFounder board) plus some female-female wires. You do need to spend ~$10 total, but no solder (screw terminals) if you just want to drive the feed motor for brief intervals.
+Only extra hardware: Pi, and Songle 5V DC relays from Amazon (e.g. JBtek or SunFounder board) plus some various wires. You do need to spend ~$10 total, but no solder (screw terminals) if you just want to drive the feed motor for brief intervals using the unit's original power supply wired as pictured below.
+
+![pi](https://user-images.githubusercontent.com/593274/130497191-386e5d14-2117-41c6-871f-2edf0d53c9c6.jpg)
