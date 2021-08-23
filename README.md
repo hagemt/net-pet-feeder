@@ -1,4 +1,4 @@
-# My homebrew to revive defunct Petnet SmartFeeder Gen 1/2
+# Homebrew revives defunct Petnet SmartFeeder Gen 1/2
 
 Like you press the button on your pet feeder, but for Internet. Cloud not required.
 
