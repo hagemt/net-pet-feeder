@@ -1,0 +1,24 @@
+## entries for ~/.ssh/config; you probably don't need all three of these
+
+# to reach the box running the site from Pi (and to Pi, if no VPS)
+Host vps
+	AddKeysToAgent no
+	HostName <host> # or IP address
+	IdentityFile /home/pi/.ssh/id_rsa.pem
+	User <user> # or pi
+
+# to reach Pi from "jump box" running the site (VPS, or Pi)
+Host pi
+	HostName localhost
+	# see also: Host jump
+	Port 22222
+	User pi
+
+# from any machine to Pi, via "jump box"
+Host jump
+	HostName localhost
+	ProxyJump <user>@<host> # VPS box
+	Port 22222
+	User pi
+
+## you might also consider using: https://ngrok.com/
