@@ -22,6 +22,12 @@ module.exports = {
   plugins: ['import', 'react'],
 
   rules: {
-    'sort-keys': 'warn',
+    'sort-keys': 'warn'
   },
+
+  settings: {
+    react: {
+      version: 'detect'
+    }
+  }
 }
