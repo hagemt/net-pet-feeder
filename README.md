@@ -22,7 +22,7 @@ https://gist.github.com/ubergesundheit/7bdb6bdc818028a34a190363aed4d00a
 
 > He took his defunct Petnet SmartFeeder, wired the motor to a relay board, then did basic magic with Raspberry Pi.
 
-You'll need to figure out some hardware stuff on your own, or read my bad code to understand which pin(s) to pick.
+You can figure out most of the hardware stuff on your own, or read my bad code to understand which pin(s) to pick.
 
 In all seriousness, this project is full of cheap hacks; it was fun though. No, I won't post URLs to feed my cat.
 
