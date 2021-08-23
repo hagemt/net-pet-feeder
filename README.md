@@ -22,7 +22,7 @@ https://gist.github.com/ubergesundheit/7bdb6bdc818028a34a190363aed4d00a
 
 > He took his defunct Petnet SmartFeeder, wired the motor to a relay board, then did basic magic with Raspberry Pi.
 
-You can figure out most of the hardware stuff on your own, or read my bad code to understand which pin(s) to pick.
+You can figure out most of the hardware stuff on your own, or read my bad code to understand which pin(s) to pick. Start with the `cats.py` script, which is the only thing that actually interacts with GPIO. The `mice.py` script assumes a USB mouse-like device is attached directly to the Pi. The API is HTTP GET/POST to obtain logs or activate the feed.
 
 In all seriousness, this project is full of cheap hacks; it was fun though. No, I won't post URLs to feed my cat.
 
