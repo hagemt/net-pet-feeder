@@ -1,6 +1,6 @@
 # Homebrew revives defunct Petnet SmartFeeder Gen 1/2
 
-Like you press the button on your pet feeder, but for Internet. Cloud not required.
+Like you want to feed your pet, but for Internet. Cloud not required.
 
 <img width="453" alt="image" src="https://user-images.githubusercontent.com/593274/130391582-253bd6c1-1b51-408f-b308-0bfefbfa7067.png">
 
