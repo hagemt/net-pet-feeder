@@ -2,6 +2,8 @@
 
 Like you press the button on your pet feeder, but for Internet. Cloud not required.
 
+<img width="453" alt="image" src="https://user-images.githubusercontent.com/593274/130391582-253bd6c1-1b51-408f-b308-0bfefbfa7067.png">
+
 ## Install
 
 Clone this repo to your VPS--configured such that the Pi can SSH to it.
