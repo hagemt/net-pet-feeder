@@ -1,4 +1,5 @@
 *.DS_Store
-*.env*
 /.next
+/.nyc_output
+/coverage
 /node_modules

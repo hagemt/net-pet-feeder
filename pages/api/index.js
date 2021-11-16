@@ -1,8 +1,9 @@
 import { spawnSync } from 'child_process'
 
-const CLI = process.env.CATS_CLI || '/opt/teh/cats.py'
-const LOG = process.env.CATS_LOG || '/opt/teh/cats.log'
-const MAX = process.env.CATS_MAX || '100'
+const DIR = process.env.FEED_DIR || '/opt/feed'
+const CLI = process.env.CATS_CLI || `${DIR}/cats.py`
+const LOG = process.env.CATS_LOG || `${DIR}/cats.log`
+const MAX = process.env.CATS_MAX || '100' // lines
 const SSH = process.env.CATS_SSH || '/usr/bin/ssh'
 const URI = process.env.CATS_URI || 'pi@localhost -p 22222'
 
